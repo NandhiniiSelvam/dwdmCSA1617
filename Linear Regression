@@ -18,3 +18,4 @@ abline(model, col="red")
 # Predict mortality for hardness = 88
 predicted_mortality <- predict(model, data.frame(hardness = 88))
 cat("Predicted Mortality for Hardness 88:", predicted_mortality, "\n")
+cat("Predicted Mortality for Hardness 88:", predicted_mortality, "\n")
